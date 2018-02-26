@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>VA SAVOIR - e-learning</title>
+	<meta name="author" content="Nathalie Daneau" />
+	<meta name="description" content="Services de conception de formations en ligne personnalisées pour les entreprises et les particuliers" />
+	<meta name="keywords"  content="formation en ligne;elearning; e-learning eformation ; formation interactive; cours interactif; design pedagogique;conception pedagogique; technopedagogie;conception visuelle; art interactif;canada,quebec,montreal,toronto; lms, learning management system, systeme de gestion de l'apprentissage, outil auteur, jeu serieux, m-learning, design interactif, kiosque interactif, conception visuelle, concepteur, multimedia, graphisme, conception graphique, designer, graphic designer, infographie, design d'information et de formation interactive, design d'interaction et d'applications, design d'interfaces mobiles, webdesign et ergonomie web, developpement, programmation web, projection, identité graphique" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel=icon href=favicon.ico sizes="16x16 32x32 48x48" type="favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	
+	<style>
+
+
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	#section0,
+	#section1,
+	#section2,
+	#section3{
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	/* Defining each sectino background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url(imgs/bg1.jpg);
+	}
+	
+	#section1{
+		background-image: url(imgs/v_bg.png);
+		background-color: #edf5f9;
+	}
+
+	#section2{
+		background-image: url(imgs/bg3.jpg);
+		padding: 6% 0 0 0;
+	}
+	#section3{
+		background-image: url(imgs/bg4.jpg);
+		padding: 6% 0 0 0;
+	}
+	#section3 h1{
+		color: #000;
+	}
+
+
+	/*Adding background for the slides
+	* --------------------------------------- */
+	#slide1{
+		background-image: url(imgs/bg2.jpg);
+		padding: 6% 0 0 0;
+	}
+	#slide2{
+		background-image: url(imgs/bg5.jpg);
+		padding: 6% 0 0 0;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/code.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: false,
+	
+				//to avoid problems with css3 transforms and fixed elements in Chrome, as detailed here: https://github.com/alvarotrigo/fullPage.js/issues/208
+				css3:false
+			});
+		});
+	</script>
+
+
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section" id="section0">
+	<h1>Va savoir</h1>
+	<div class="section_content">
+		<p class="description">Des formations en ligne adaptées à vos besoins pour un apprentissage optimal.</p>
+		<div class="liens">
+			 <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button thar-one">Portfolio</a> </div>
+			 <div class="col-md-3 col-sm-3 col-xs-6"> <a href="https://www.linkedin.com/in/nathalie-daneau-52935646/" target="_blank" class="btn btn-sm animated-button thar-one">LinkedIn</a> </div>
+		</div>
+		<div class="scroll">
+			<img src="imgs/scroll_icon.png" height="80px" width="35px">
+		</div>
+	</div>
+	
+	
+	
+	</div>
+	
+	<div class="section" id="section1">
+	<div class="section_content top50">
+		<div class="carte">
+			<h2>CONTACT</h2>
+			<p class="nom">Nathalie Daneau</p>
+			<p class="titre">Conceptrice pédagogique</p>
+			<p class="informations">C: n.daneau@videotron.ca</p>
+			<p class="informations">T: 514-994-3304</p>
+		</div>
+	</div>
+	
+</div>
+
+</body>
+</html>
